@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+}
+body{
+         background-color: rgb(233, 231, 230);
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+
+}
+
+.pop_body::before{
+    content: "";
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    background-color: rgb(207, 179, 19);
+    opacity: 0.5;
+}
+.main{
+    width: 60%;
+    /* height: 120vh; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;/* 
+    padding-left: 15%;
+    padding-right: 15%; */
+    /* margin-bottom: 5rem; */
+    /* z-index: 0; */
+    
+}
+.recettes{
+    /* width: 36%; */
+    /* height: 96vh;       */
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 1%; */
+    background-color: rgb(233, 231, 230);
+   /* display: flex; */
+   /* justify-content: space-between; */
+    
+}
+.recette{   
+    width: 96%;
+    height: auto;
+    background-color: white;
+    display: grid;
+    /* grid-template-rows: 12% 35% 53%; */
+    margin-left: 2%;
+    margin-top: 2%;
+    /* background-color: red; */
+    margin-bottom: 4%;
+
+}
+.header{    /* background-color: red; */
+    margin-top: 1%;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    height: 5rem;
+   
+   
+}
+.search{
+    width: 40%;
+    height: 50%;
+    margin-top: 0;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(233, 231, 230);
+    
+}
+.image{
+    width: 50px;
+    height: 50px;
+    /* padding-top: 5%; */
+    padding-left: 3%;
+}
+.midle{
+    background-color: rgb(243, 225, 255);
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+    font-size: 1em;
+    height: 20rem;
+}
+.image2{
+    width: 120px;
+    height: 120px;
+    border-radius: 50px;
+    margin-left: 40%;
+}
+.spane1{
+    padding-top: 3%;
+    font-size: 1.5em;
+}
+.end{
+    /* background-color: mediumblue; */
+    /* display: grid; */
+    /* grid-template-rows: 75% 25%; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.end_plat{
+    /* background-color: red; */
+    height: 35rem;
+    
+}
+.end_plat img{
+    margin-top: 2%;
+    width: 94%;
+    height: 99%;
+    margin-left: 2%;
+    /* border-radius: 12px; */
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+
+}
+.end_text{
+    /* background-color: black; */
+    width: 94%;
+    margin-left: 6%; 
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+.end_text i{
+    width: 70px;
+    height: 70px;
+    margin-top: 43px;
+    margin-left: 60%; 
+    margin-right: 2%;
+    /*color: white; */
+
+}.end_text p{
+    font-size: 2em;
+    margin-left: 4%;
+}
+.end_btn{
+    position: absolute;
+     top: 48%; 
+     left: 34%;
+     border: none;
+     /* height: 4%; */
+     font-size: 2em;
+     border-radius: 3px;
+}
+.pop_up{
+    position:absolute;   
+    display: none;  
+    /* padding-left: 3%;
+    padding-right: 2%; */
+    background-color: white;
+    font-size: 1.5em;
+    border: 4px solid red;
+    top: 0;
+    z-index: 10;
+    /* width: 100%; */
+    
+
+}
+.rec{
+    width: 100%;
+}
+/* .modal{
+
+} */
+.pop_up1{
+    
+   display: block;
+   flex-direction: column;
+    align-content: center;
+    align-items: center;
+} 
+.modal img{
+   background-color: white;
+}
+.modal{
+    position: fixed;
+}
+.modal .pop_up_p{
+    background-color: white;
+    overflow-y: scroll;
+}
+img.img_popup {
+    height: 25rem;
+}
+p.pop_up_p {
+    height: 15rem;
+    overflow-y: scroll;
+}
+.recettes 
+.modal label{
+    /* margin-top: 4%; */
+    margin-left: 40%;
+    font-size: 3em;
+}
+/* .position{
+    position: relative;
+} */

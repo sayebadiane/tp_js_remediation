@@ -11,7 +11,6 @@ for (i = 0; i < buttons.length; i++){
         var style = color.backgroundColor;
         let div1 = document.createElement('div');
         div1.className = `div1`;
-        // console.log(div1.className);
         let p = document.createElement("p");
         p.innerText = "Mon projet";
         div1.style.backgroundColor = style;
